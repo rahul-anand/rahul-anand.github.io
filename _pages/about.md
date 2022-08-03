@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD student at CMU advised by Prof. [Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and Prof. [Anthony Rowe](https://users.ece.cmu.edu/~agr/) . I am working on the problem of IoT security and applying machine learning to solve interesting challenges in computer networks and systems.
 
-Previously, at Microsoft Research, I was involved in [FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), where I worked on developing ML algorithms on sensor data for agriculture. 
+Previously, at Microsoft Research, I was involved in [FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), where I worked on developing  IoT and ML algorithms for agriculture. 
 
 Before that I finished by Undergrad and Masters from IIIT Hyderabad, India. My [Masters thesis](https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Thesis/MS/RahulAnandMS2016/Thesis.pdf) was in the field of computer vision where I developed several algorithms to analyze  cricket and soccer broadcast videos.
 
