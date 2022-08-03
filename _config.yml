@@ -70,16 +70,17 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: rahul_ans
 linkedin_username: rahulanandsharma
 scholar_userid: gQBsCpsAAAAJ
-orcid_id: # your ORCID ID
+orcid_id: 
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://www.dropbox.com/s/k8x294cmml7i2ka/rahul_resume.pdf?raw=1
+twitter_username: rahul_ans
+
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
