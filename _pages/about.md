@@ -1,25 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Student @<a target ='_blank' href='https://www.cylab.cmu.edu/'>Cylab, CMU </a> Previously @ <a target ='_blank' href='https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/'>Microsoft Research</a>, <a target ='_blank' href="https://www.iiit.ac.in/">IIIT Hyderabad</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  address: false
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student at CMU advised by Prof. [Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and Prof. [Anthony Rowe](https://users.ece.cmu.edu/~agr/) . I am working on the problem of IoT security and applying machine learning to solve interesting challenges in computer networks and systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, at Microsoft Research, I was involved in [FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), where I worked on developing ML algorithms on sensor data for agriculture. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before that I finished by Undergrad and Masters from IIIT Hyderabad, India. My [Masters thesis](https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Thesis/MS/RahulAnandMS2016/Thesis.pdf) was in the field of computer vision where I developed several algorithms to analyze  cricket and soccer broadcast videos.
+
+<!-- on Automatic Analysis of Cricket And Soccer Broadcast Videos. -->
