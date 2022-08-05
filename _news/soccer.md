@@ -10,7 +10,7 @@ Media coverage of our Research work on Fine Grain Annotation of Cricket Videos b
             , <a target="_blank"
               href="https://www.washingtonpost.com/news/innovations/wp/2015/12/15/how-artificial-intelligence-could-change-the-way-we-watch-sports/">
               Washington Post</a>, <a target="_blank"
-              href="https://thestack.com/world/2015/11/25/artificial-intelligence-neural-networks-sports-commentaries/">theStack</a>,
+              href="https://thestack.com/world/2015/11/25/artificial-intelligence-neural-networks-sports-commentaries/">theStack</a>, and 
             <a target="_blank"
               href="http://www.theregister.co.uk/2015/11/26/indian_boffins_teach_computers_to_see_by_watching_cricket/">
               theRegister</a>
