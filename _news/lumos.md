@@ -7,6 +7,8 @@ inline: true
           by
 
  <a target="_blank"
+              href="https://www.spiegel.de/netzwelt/gadgets/versteckte-kamera-so-finden-sie-spycams-in-der-ferienwohnung-a-0cb66555-b777-4b07-9c6d-89af43e58a71">Der Spiegel</a>, 
+ <a target="_blank"
               href="https://thehackernews.com/2022/05/lumos-system-can-find-hidden-cameras.html">Hackernews</a>
             , <a target="_blank"
               href="https://technical.ly/software-development/cmu-cylab-research/">
