@@ -3,7 +3,7 @@ layout: post
 date: 2022-07-1 15:59:00-0400
 inline: true
 ---
- Media coverage of our Research work on Lumos: Identifying and Localizing Diverse Hidden IoT Devices in an Unfamiliar Environment
+ Media coverage of  Lumos
           by
 
  <a target="_blank"
