@@ -67,6 +67,23 @@ abstract={One of the major challenges faced by Augmented Reality (AR) systems is
 @inproceedings{sharma2018automated,
   abbr={WACV},
     pdf={wacv18.pdf},
+abstract={In this paper, we propose a novel method to register football broadcast video frames on the static top view model
+of the playing surface. 
+The proposed method is fully automatic in contrast to the current state of the art which requires manual initialization of point correspondences between the image and the static model.
+ Automatic registration using existing approaches has been difficult due to the
+lack of sufficient point correspondences. We investigate an
+alternate approach exploiting the edge information from the
+line markings on the field. We formulate the registration
+problem as a nearest neighbour search over a synthetically
+generated dictionary of edge map and homography pairs.
+The synthetic dictionary generation allows us to exhaustively cover a wide variety of camera angles and positions
+and reduce this problem to a minimal per-frame edge map
+matching procedure. We show that the per-frame results can
+be improved in videos using an optimization framework for
+temporal camera stabilization. We demonstrate the efficacy
+of our approach by presenting extensive results on a dataset
+collected from matches of football World Cup 2014.
+},
 
   title={Automated top view registration of broadcast football videos},
   author={Sharma, Rahul Anand and Bhat, Bharath and Gandhi, Vineet and Jawahar, CV},
@@ -75,6 +92,9 @@ abstract={One of the major challenges faced by Augmented Reality (AR) systems is
   year={2018},
   organization={IEEE},
         selected={true},
+                slides={wacv_ppt.pdf},
+                poster={WACV18-poster.pdf},
+
 
 }
 @inproceedings{chakraborty2018fall,
@@ -111,7 +131,20 @@ abbr={ACM COMPASS},
 }
 @article{sharma2017automatic,
   abbr={SIVP},
-  
+  abstract={The presence of standard video editing practices
+in broadcast sports videos, like football, effectively means
+that such videos have stronger contextual priors than most
+generic videos. In this paper, we show that such information can be harnessed for automatic analysis of sports videos.
+Specifically, given an input video, we output per-frame information about camera angles and the events (goal, foul, etc.).
+Our main insight is that in the presence of temporal context
+(camera angles) for a video, the problem of event tagging
+(fouls, corners, goals, etc.) can be cast as per frame multiclass classification problem. We show that even with simple
+classifiers like linear SVM, we get significant improvement
+in the event tagging task when contextual information is
+included. We present extensive results for 10 matches from
+the recently concluded Football World Cup, to demonstrate
+the effectiveness of our approach.
+  },
     pdf={sivp18.pdf},
 
   title={Automatic analysis of broadcast football videos using contextual priors},
@@ -149,7 +182,23 @@ abbr={ACM COMPASS},
 @inproceedings{sharma2015fine,
   abbr={ACPR},
   pdf={acpr15.pdf},
-
+abstract={
+The recognition of human activities is one of the key
+problems in video understanding. Action recognition is
+challenging even for specific categories of videos, such as
+sports, that contain only a small set of actions. Interestingly, sports videos are accompanied by detailed commentaries available online, which could be used to perform action annotation in a weakly-supervised setting.
+ For the specific case of Cricket videos, we address the challenge of
+temporal segmentation and annotation of actions with semantic descriptions. Our solution consists of two stages.
+In the first stage, the video is segmented into “scenes”, by
+utilizing the scene category information extracted from text-commentary. The second stage consists of classifying video-shots as well as the phrases in the textual description into
+various categories. The relevant phrases are then suitably
+mapped to the video-shots. The novel aspect of this work
+is the fine temporal scale at which semantic information is
+assigned to the video. As a result of our approach, we enable retrieval of specific actions that last only a few seconds, from several hours of video. This solution yields a
+large number of labelled exemplars, with no manual effort,
+that could be used by machine learning algorithms to learn
+complex actions.
+},
   title={Fine-grain annotation of cricket videos},
   author={Sharma, Rahul Anand and Sankar, K Pramod and Jawahar, CV},
         selected={true},
@@ -171,6 +220,17 @@ abbr={ACM COMPASS},
 }
 @article{sharma2018learnability,
 abbr={Arxiv},
+abstract={
+This paper explores the simplicity of learned neural networks under various settings: learned on real vs random data, varying size/architecture and using large
+minibatch size vs small minibatch size. The notion of simplicity used here is that
+of learnability i.e., how accurately can the prediction function of a neural network be learned from labeled samples from it. While learnability is different from
+(in fact often higher than) test accuracy, the results herein suggest that there is a
+strong correlation between small generalization errors and high learnability. This
+work also shows that there exist significant qualitative differences in shallow networks as compared to popular deep networks. More broadly, this paper extends
+in a new direction, previous work on understanding the properties of learned neural networks. Our hope is that such an empirical study of understanding learned
+neural networks might shed light on the right assumptions that can be made for a
+theoretical study of deep learning},
+
   pdf={learning18.pdf},
 
   title={Learnability of learned neural networks},
