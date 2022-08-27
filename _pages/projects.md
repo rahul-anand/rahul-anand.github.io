@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Projects
+title: Media
 permalink: /projects/
-description: To be updated soon
+description: 
 nav: false
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Lumos,Cricket]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
+
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
