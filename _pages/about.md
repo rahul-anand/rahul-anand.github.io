@@ -20,7 +20,7 @@ Previously, at Microsoft Research, I was involved in the project [FarmBeats](htt
 
  Before that, I finished my Undergrad and Masters's from IIIT Hyderabad, India. My Master's[ thesis](https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Thesis/MS/RahulAnandMS2016/Thesis.pdf) was in the field of computer vision where I developed several algorithms to analyze cricket and soccer broadcast videos.
 
- Here is my <a target='_blank' href="assets/pdf/rahul_resume.pdf">CV</a>
+ Here is my <a target='_blank' href="https://www.dropbox.com/s/k8x294cmml7i2ka/rahul_resume.pdf?raw=1">CV</a>
  <h3 style="background-color:white;color:darkblue;font-weight:bold;font-size:150%;">I am on the industry job market</h3>
 
 <!-- on Automatic Analysis of Cricket And Soccer Broadcast Videos. -->
