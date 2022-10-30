@@ -26,5 +26,8 @@
 "ICVGIP":
     url: https://dl.acm.org/conference/icvgip
 
-"BuidSys":
+"BuildSys":
     url: http://buildsys.acm.org/
+
+"CoNEXT":
+    url: https://conferences2.sigcomm.org/co-next/2022/#!/home
