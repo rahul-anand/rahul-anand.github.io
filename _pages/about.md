@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: AWS, Amazon &nbsp;&nbsp; <b>Previously@</b>Cylab (CMU), <a target ='_blank' href='https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/'>Microsoft Research</a>, <a target ='_blank' href="https://www.iiit.ac.in/">IIIT Hyderabad</a>
+subtitle: AWS (Amazon), Cylab (CMU) &nbsp;&nbsp; <b>Previously@</b><a target ='_blank' href='https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/'>Microsoft Research</a>, <a target ='_blank' href="https://www.iiit.ac.in/">IIIT Hyderabad</a>
 
 profile:
   align: right
@@ -10,12 +10,12 @@ profile:
   image_cicular: false # crops the image to make it circular
   address: false
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I have joined the Network Infrastructure team at AWS.
 
-I am a Ph.D. candidate at Carnegie Mellon advised by [Prof. Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/). I am working on the problem of IoT security and applying machine learning to solve interesting challenges in computer networks and systems.
+I am a Ph.D. candidate at Carnegie Mellon advised by [Prof. Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/). I am working on the problem of IoT security and applying machine learning to solve interesting challenges in computer networks and systems. 
 
 Previously, at Microsoft Research, I was involved in the project [FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), where I worked on developing ML algorithms on sensor data for agriculture.
 
