@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 I have joined the Network Infrastructure team at AWS.
 
-I am a Ph.D. candidate at Carnegie Mellon advised by [Prof. Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/). I am working on the problem of IoT security and applying machine learning to solve interesting challenges in computer networks and systems. 
+I finished my Ph.D thesis on [Practical network layer machine learning for IoT security](https://kilthub.cmu.edu/articles/thesis/Practical_network-layer_machine_learning_for_IoT_security/25030973/1) from Carnegie Mellon advised by [Prof. Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/)
 
 Previously, at Microsoft Research, I was involved in the project [FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), where I worked on developing ML algorithms on sensor data for agriculture.
 
