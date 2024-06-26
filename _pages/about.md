@@ -13,7 +13,9 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I have joined the Network Infrastructure team at AWS.
+
+<!-- I am working as an Applied Scientist in the Analytics Science team. -->
+I have joined as an Applied Scientist at AWS.
 
 I finished my Ph.D thesis on [Practical network layer machine learning for IoT security](https://kilthub.cmu.edu/articles/thesis/Practical_network-layer_machine_learning_for_IoT_security/25030973/1) from Carnegie Mellon advised by [Prof. Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
 
