@@ -7,7 +7,6 @@ first_name: Rahul
 middle_name: Anand
 last_name: Sharma
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Resume Website
 
