@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. AWS (Amazon), Cylab (CMU), Microsoft Research, IIIT Hyderabad
 
