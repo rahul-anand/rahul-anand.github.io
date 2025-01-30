@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-finished-my-ms-by-research-from-iiit-hyderabad",
+        },{id: "news-finished-my-ms-by-research-from-iiit-hyderabad",
           title: 'Finished my MS by research from IIIT Hyderabad',
           description: "",
           section: "News",},{id: "news-started-as-a-research-fellow-at-microsoft-research-india-on-farmbeats",
@@ -70,6 +59,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-joined-aws",
           title: 'Joined AWS',
+          description: "",
+          section: "News",},{id: "news-introducing-generative-ai-troubleshooting-for-apache-spark-in-aws-glue",
+          title: 'Introducing generative AI troubleshooting for Apache Spark in AWS Glue',
           description: "",
           section: "News",},{id: "projects-cricket-annotation-work-by-washington-post-ndtv-stack-and-register",
           title: 'Cricket Annotation work by                            Washington Post,                 NDTV,                Stack, and                                Register',
