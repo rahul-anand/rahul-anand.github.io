@@ -1,41 +1,40 @@
-"Soltanaghaei":
+"soltanaghaei":
   - firstname: ["Elahe"]
     url: https://www.elahe.web.illinois.edu/
 
-"Apostolaki":
+"apostolaki":
   - firstname: ["Maria"]
-    url: https://netsyn.princeton.edu/
+    url: https://netsyn.princeton.edu/people/maria-apostolaki
 
-"Sekar":
+"sekar":
   - firstname: ["Vyas"]
     url: https://users.ece.cmu.edu/~vsekar/
 
-"Rowe":
+"rowe":
   - firstname: ["Anthony"]
     url: https://users.ece.cmu.edu/~agr/
 
-"Chandra": 
+"chandra": 
   - firstname: ["Ranveer"]
     url: https://www.microsoft.com/en-us/research/people/ranveer/
 
-"Chakraborty": 
+"chakraborty": 
   - firstname: ["Tusher"]
     url: https://www.microsoft.com/en-us/research/people/tusherc/
 
-"Jawahar": 
+"jawahar": 
   - firstname: ["CV"]
     url: https://faculty.iiit.ac.in/~jawahar/
 
-
-"Gandhi": 
+"gandhi": 
   - firstname: ["Vineet"]
     url: https://faculty.iiit.ac.in/~vgandhi/
 
-"Moon": 
+"moon": 
   - firstname: ["Soo-Jin"]
     url: https://soojinmoon.com/
 
-"Manousis": 
+"manousis": 
   - firstname: ["Antonis"]
     url: https://www.andrew.cmu.edu/user/amanousi/
 #   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
