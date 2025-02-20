@@ -108,7 +108,7 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("assets/pdf/rahul_resume.pdf", "_blank");
+          window.open("assets/pdf/rahulanand_resume.pdf", "_blank");
         },
       },{
       id: 'light-theme',
