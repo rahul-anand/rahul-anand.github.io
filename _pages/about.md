@@ -31,4 +31,4 @@ I finished my Ph.D thesis on [Practical network layer machine learning for IoT s
 
 Previously, at Microsoft Research, I was involved in the project [FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), where I worked on developing ML algorithms on sensor data for agriculture.
 
- Before that, I finished my Undergrad and Masters's from IIIT Hyderabad, India. My Master's[thesis](https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Thesis/MS/RahulAnandMS2016/Thesis.pdf) was in the field of computer vision where I developed several algorithms to analyze cricket and soccer broadcast videos.
+ Before that, I finished my Undergrad and Masters's from IIIT Hyderabad, India. My Master's [thesis](https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Thesis/MS/RahulAnandMS2016/Thesis.pdf) was in the field of computer vision where I developed several algorithms to analyze cricket and soccer broadcast videos.
