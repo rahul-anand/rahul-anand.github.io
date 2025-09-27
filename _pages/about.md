@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. AWS (Amazon), Cylab (CMU), Microsoft Research, IIIT Hyderabad
+subtitle: <a href='#'>Affiliations:</a> Google Cloud (GCP), AWS (Amazon), Cylab (CMU), Microsoft Research, IIIT Hyderabad
 
 profile:
   align: right
@@ -25,7 +25,7 @@ latest_posts:
   limit:  # leave blank to include all the blog posts
 ---
 
-Working as as an Applied Scientist at AWS .
+Working as as a Senior Software Engineer at Google Cloud Platform on optimizing LLMs for TPUs.
 
 I finished my Ph.D thesis on [Practical network layer machine learning for IoT security](https://kilthub.cmu.edu/articles/thesis/Practical_network-layer_machine_learning_for_IoT_security/25030973/1) from Carnegie Mellon advised by [Prof. Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and [Prof. Anthony Rowe](https://users.ece.cmu.edu/~agr/).
 
