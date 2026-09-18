@@ -18,17 +18,17 @@ ninja.data = [{
           },
         },{id: "nav-patents",
           title: "Patents",
-          description: "Patents filed while at Microsoft Research.",
+          description: "Granted US patents on distributed edge AI workload scheduling and sensor telemetry systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/patents/";
           },
-        },{id: "nav-teaching",
-          title: "Teaching",
-          description: "",
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Curriculum Vitae &amp; technical background. Download the PDF version using the icon on the right.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/cv/";
           },
         },{id: "news-finished-my-ms-by-research-from-iiit-hyderabad",
           title: 'Finished my MS by research from IIIT Hyderabad',
@@ -63,17 +63,20 @@ ninja.data = [{
           section: "News",},{id: "news-introducing-generative-ai-troubleshooting-for-apache-spark-in-aws-glue",
           title: 'Introducing generative AI troubleshooting for Apache Spark in AWS Glue',
           description: "",
-          section: "News",},{id: "projects-cricket-annotation-work-by-washington-post-ndtv-stack-and-register",
-          title: 'Cricket Annotation work by                            Washington Post,                 NDTV,                Stack, and                                Register',
+          section: "News",},{id: "projects-broadcast-sports-ai-research-covered-by-the-washington-post-ndtv-and-the-register",
+          title: 'Broadcast sports AI research covered by The Washington Post, NDTV, and The Register....',
           description: "",
-          section: "Projects",},{id: "projects-satya-nadella-talking-about-our-work-on-cricket-annotation",
-          title: 'Satya Nadella talking about our work on  Cricket Annotation',
+          section: "Projects",},{id: "projects-sports-ai-research-featured-by-microsoft-ceo-satya-nadella-in-his-keynote-address",
+          title: 'Sports AI research featured by Microsoft CEO Satya Nadella in his Keynote Address....',
           description: "",
-          section: "Projects",},{id: "projects-bill-gates-talking-about-farmbeats-on-gatesnotes",
-          title: 'Bill Gates talking about FarmBeats on  GatesNotes',
+          section: "Projects",},{id: "projects-farmbeats-highlighted-by-bill-gates-on-gatesnotes-can-computers-help-feed-the-world",
+          title: 'FarmBeats highlighted by Bill Gates on GatesNotes: Can Computers Help Feed the World?...',
           description: "",
-          section: "Projects",},{id: "projects-lumos-by-der-spiegel-hackernews-technical-ly-and-trak-in",
-          title: 'Lumos           by  Der Spiegel,   Hackernews             ,                Technical.ly, and Trak.in',
+          section: "Projects",},{id: "projects-lumos-hidden-device-localization-featured-on-the-front-page-of-the-hacker-news-der-spiegel-and-technical-ly",
+          title: 'Lumos hidden device localization featured on the front page of The Hacker News,...',
+          description: "",
+          section: "Projects",},{id: "projects-aws-official-launch-architected-and-introduced-generative-ai-troubleshooting-for-apache-spark-in-aws-glue-amazon-q",
+          title: 'AWS Official Launch: Architected and introduced Generative AI troubleshooting for Apache Spark in...',
           description: "",
           section: "Projects",},{
         id: 'social-email',
@@ -81,6 +84,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%72%61%68%75%6C%61%6E%61%6E%64%73%68%61%72%6D%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/rahul-anand", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -108,7 +118,7 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("assets/pdf/rahulanand_resume.pdf", "_blank");
+          window.open("/assets/pdf/rahulanand_resume.pdf", "_blank");
         },
       },{
       id: 'light-theme',
