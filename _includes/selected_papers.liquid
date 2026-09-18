@@ -1,3 +1,87 @@
-<div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+<div class="row g-3">
+  <!-- Lumos -->
+  <div class="col-md-6 mb-3">
+    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
+      <div class="d-flex justify-content-between align-items-start mb-2">
+        <span class="badge badge-danger text-white px-2 py-1" style="font-size: 0.75rem;">USENIX Security '22</span>
+        <small class="text-muted"><i class="fa-solid fa-trophy text-warning"></i> Front Page HN</small>
+      </div>
+      <h5 class="card-title font-weight-bold mb-1" style="font-size: 1.05rem;">
+        <a href="{{ '/assets/pdf/lumos22.pdf' | relative_url }}" target="_blank" style="color: inherit;">Lumos: Hidden IoT Localization</a>
+      </h5>
+      <p class="card-text text-muted small mb-3">
+        Mobile sensing system leveraging 802.11 PHY/MAC features and AR to identify and localize hidden IoT cameras and devices with 95% accuracy.
+      </p>
+      <div class="mt-auto">
+        <a href="{{ '/assets/pdf/lumos22.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+        <a href="https://github.com/rahul-anand/Lumos" target="_blank" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-brands fa-github"></i> Code</a>
+        <a href="{{ '/assets/pdf/sec22_slides-sharma_rahul.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-solid fa-person-chalkboard"></i> Slides</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIGCOMM 2020 -->
+  <div class="col-md-6 mb-3">
+    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
+      <div class="d-flex justify-content-between align-items-start mb-2">
+        <span class="badge badge-primary text-white px-2 py-1" style="font-size: 0.75rem;">ACM SIGCOMM '20</span>
+        <small class="text-muted">Cloud QoS</small>
+      </div>
+      <h5 class="card-title font-weight-bold mb-1" style="font-size: 1.05rem;">
+        <a href="{{ '/assets/pdf/slomo20.pdf' | relative_url }}" target="_blank" style="color: inherit;">Contention-Aware VNF Prediction</a>
+      </h5>
+      <p class="card-text text-muted small mb-3">
+        ML-driven contention-aware predictor for virtualized network functions (VNFs) to model resource bottlenecks and guarantee cloud QoS under multi-tenant workloads.
+      </p>
+      <div class="mt-auto">
+        <a href="{{ '/assets/pdf/slomo20.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- DeepEdge -->
+  <div class="col-md-6 mb-3">
+    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
+      <div class="d-flex justify-content-between align-items-start mb-2">
+        <span class="badge badge-info text-white px-2 py-1" style="font-size: 0.75rem;">USENIX NSDI '19</span>
+        <small class="text-muted"><i class="fa-solid fa-certificate text-info"></i> US Patent</small>
+      </div>
+      <h5 class="card-title font-weight-bold mb-1" style="font-size: 1.05rem;">
+        <a href="{{ '/assets/pdf/nsdi19.pdf' | relative_url }}" target="_blank" style="color: inherit;">DeepEdge: Distributed Edge AI</a>
+      </h5>
+      <p class="card-text text-muted small mb-3">
+        Edge-cloud scheduling framework optimizing DNN inference pipelines under severe compute and bandwidth constraints, enabling graceful performance degradation.
+      </p>
+      <div class="mt-auto">
+        <a href="{{ '/assets/pdf/nsdi19.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+        <a href="{{ '/patents/' | relative_url }}" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-solid fa-stamp"></i> Patent</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lumen -->
+  <div class="col-md-6 mb-3">
+    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
+      <div class="d-flex justify-content-between align-items-start mb-2">
+        <span class="badge badge-success text-white px-2 py-1" style="font-size: 0.75rem;">ACM CoNEXT '22</span>
+        <small class="text-muted">Benchmarking Suite</small>
+      </div>
+      <h5 class="card-title font-weight-bold mb-1" style="font-size: 1.05rem;">
+        <a href="{{ '/assets/pdf/lumen22.pdf' | relative_url }}" target="_blank" style="color: inherit;">Lumen: IoT Anomaly Detection</a>
+      </h5>
+      <p class="card-text text-muted small mb-3">
+        Modular benchmarking framework resolving domain-shift degradation and systematically evaluating ML network anomaly detection across 100+ commercial IoT devices.
+      </p>
+      <div class="mt-auto">
+        <a href="{{ '/assets/pdf/lumen22.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+        <a href="https://github.com/rahul-anand/Lumen" target="_blank" class="btn btn-sm btn-outline-secondary py-0 px-2" style="font-size: 0.8rem;"><i class="fa-brands fa-github"></i> Code</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-right mb-4">
+  <a href="{{ '/publications/' | relative_url }}" class="btn btn-sm btn-outline-primary font-weight-bold px-3 py-1">
+    View All 15+ Publications & Citations &rarr;
+  </a>
 </div>

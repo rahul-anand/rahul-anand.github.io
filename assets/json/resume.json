@@ -1,200 +1,291 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Rahul Anand Sharma",
+    "label": "ML Systems Engineer & Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "rahulanandsharma@gmail.com",
+    "phone": "412-708-9085",
+    "url": "https://rahul-anand.github.io",
+    "summary": "ML Systems Engineer and Researcher specializing in hardware-software co-design, LLM inference acceleration, and distributed accelerator infrastructure (TPUs/GPUs). Ph.D. from CMU with 15+ publications at top systems venues (SIGCOMM, NSDI, USENIX Security) and 2 US patents. Track record of driving high-impact technical initiatives across Google Cloud, AWS, and Microsoft Research.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "94043",
+      "city": "Mountain View",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
+        "network": "GitHub",
+        "username": "rahul-anand",
+        "url": "https://github.com/rahul-anand"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "rahulanandsharma",
+        "url": "https://www.linkedin.com/in/rahulanandsharma"
+      },
+      {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "rahul_ans",
+        "url": "https://twitter.com/rahul_ans"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Google Cloud",
+      "position": "ML Systems Engineer",
+      "url": "https://cloud.google.com/",
+      "startDate": "2025-08-01",
+      "endDate": "",
+      "summary": "Inference optimization and high-performance serving of Gemini models across GPUs and TPUs.",
+      "highlights": [
+        "Driving inference optimization and serving performance for Gemini models across GPU and TPU platforms.",
+        "Previously led the TPU v7 (Ironwood) NPI microbenchmarking suite; bridged internal cluster infrastructure (Borg) with Cloud XLA runtimes, ported benchmarks from HLO to JAX, and executed multi-cube scaling analyses to model accelerator interconnect limits.",
+        "Delivered collective communication microbenchmarks and public recipes for the TPU v7 public preview, establishing interconnect scaling baselines that advanced multi-billion-dollar hardware evaluations with tier-1 frontier AI customers.",
+        "Spearheaded intra-node disaggregated serving for Gemini models on bare-metal nodes in Google Distributed Cloud (GDC) / Sovereign Cloud.",
+        "Architected automated continuous regression pipelines ensuring Borg-Cloud runtime parity; optimized open-source LLMs (Llama 3, DeepSeek) to land Day-1 3P hardware enablement (Sim-Ship), earning the Google Cloud Tech Impact Award (2026)."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "AWS, Amazon",
+      "position": "Applied Scientist",
+      "url": "https://aws.amazon.com/",
+      "startDate": "2023-01-01",
+      "endDate": "2025-07-31",
+      "summary": "Architected Generative AI-powered observability and diagnostics for big data systems and network security at hyperscale.",
+      "highlights": [
+        "Architected and launched a Generative AI-powered auto-debugging system (Amazon Q) for Apache Spark across AWS Glue, Amazon EMR, and MaxDome, utilizing LLMs for automated root-cause analysis to slash Mean Time to Resolution (MTTR) from days to minutes.",
+        "Engineered a high-throughput active testing service for AWS network security, injecting synthetic live traffic to validate Network ACLs at scale, guaranteeing strict compliance and eliminating false-positive blindspots inherent to static simulation models.",
+        "Designed and integrated automated diagnostic tooling directly into AWS Glue and EMR management consoles, delivering real-time failure insights and actionable remediations to thousands of enterprise customers."
+      ]
+    },
+    {
+      "name": "Microsoft Research, Redmond",
+      "position": "Research Intern",
+      "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/",
+      "startDate": "2020-05-01",
+      "endDate": "2021-07-31",
+      "summary": "Networking Research Group.",
+      "highlights": [
+        "Architected low-latency distributed protocols for edge-cloud deep learning inference offloading within the Networking Research Group, minimizing communication overhead and end-to-end latency under bandwidth-constrained networks."
+      ]
+    },
+    {
+      "name": "Microsoft Research, India",
+      "position": "Research Fellow",
+      "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/",
+      "startDate": "2016-07-01",
+      "endDate": "2018-07-31",
+      "summary": "Systems and networking research for edge computing, IoT, and AI.",
+      "highlights": [
+        "Co-designed and built FarmBeats, an end-to-end IoT and cloud analytics platform for data-driven agriculture; awarded Microsoft Outstanding Technical Achievement Award and productized into Microsoft Azure (US Patent US20200150640A).",
+        "Pioneered DeepEdge, a novel edge-AI scheduling architecture optimizing deep learning workloads under severe compute and bandwidth constraints, enabling graceful performance degradation (US Patent US10942767B2; published at NSDI).",
+        "Researched neural network learnability with theoretical researchers, analyzing empirical bounds on how data complexity, model depth, and minibatch dynamics govern generalization.",
+        "Mentored 4+ research interns and junior engineers, driving collaborative systems research initiatives that resulted in multiple conference publications."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.cmu.edu/",
+      "area": "Electrical & Computer Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2018-08-01",
+      "endDate": "2023-01-31",
+      "score": "CIT Dean's Fellow",
+      "courses": [
+        "Thesis: Practical Network Layer Machine Learning for IoT Security",
+        "Advisors: Prof. Vyas Sekar & Prof. Anthony Rowe"
+      ]
+    },
+    {
+      "institution": "International Institute of Information Technology (IIIT)",
+      "location": "Hyderabad, India",
+      "url": "https://www.iiit.ac.in/",
+      "area": "Computer Science",
+      "studyType": "B.Tech and M.S. by Research",
+      "startDate": "2011-07-01",
+      "endDate": "2016-07-31",
+      "score": "Dean's List for Academic and Research Excellence",
+      "courses": [
+        "Computer Vision",
+        "Broadcast Video Analytics"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Google Cloud Tech Impact Award",
+      "date": "2026",
+      "awarder": "Google Cloud",
+      "url": "https://cloud.google.com/",
+      "summary": "Awarded for landing Day-1 3P hardware enablement (Sim-Ship) and optimizing open-source LLMs (Llama 3, DeepSeek) with runtime parity."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Microsoft Outstanding Technical Achievement Award",
+      "date": "2018",
+      "awarder": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/",
+      "summary": "Awarded for co-designing and building FarmBeats, productized into Microsoft Azure."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "CIT Dean's Fellow",
+      "date": "2018",
+      "awarder": "Carnegie Mellon University",
+      "url": "https://www.cmu.edu/",
+      "summary": "Doctoral fellowship awarded by the College of Engineering at Carnegie Mellon University."
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "Dean's List for Academic and Research Excellence",
+      "date": "2016",
+      "awarder": "IIIT Hyderabad",
+      "url": "https://www.iiit.ac.in/",
+      "summary": "Awarded for academic and research excellence during B.Tech & M.S. by Research."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Languages",
+      "level": "Expert",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C++",
+        "CUDA",
+        "SQL",
+        "Bash"
+      ]
+    },
+    {
+      "name": "ML Frameworks & Compilers",
+      "level": "Expert",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "JAX",
+        "PyTorch",
+        "XLA",
+        "Triton",
+        "TensorRT / TensorRT-LLM",
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "LLM Systems & Serving",
+      "level": "Expert",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Disaggregated Serving",
+        "vLLM",
+        "Model Parallelism (TP/PP/EP)",
+        "Distributed Training (FSDP, Megatron-LM)",
+        "KV-Cache Optimization",
+        "Speculative Decoding",
+        "Quantization (FP8/INT4)"
+      ]
+    },
+    {
+      "name": "Systems, Cloud & Hardware",
+      "level": "Expert",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "Google Cloud TPU v7 (Ironwood)",
+        "NVIDIA GPU Clusters",
+        "Google Distributed Cloud (GDC)",
+        "AWS (Glue, EMR, EC2)",
+        "Apache Spark",
+        "Kubernetes",
+        "Docker",
+        "Ray"
       ]
     }
   ],
-  "languages": [
+  "publications": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Lumos: Identifying and Localizing Diverse Hidden IoT Devices in an Unfamiliar Environment",
+      "publisher": "USENIX Security",
+      "releaseDate": "2022-08-01",
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/sharma",
+      "summary": "Built a mobile system leveraging 802.11 PHY/MAC features and AR to localize hidden IoT devices with 95% accuracy; covered by Hacker News front page, Der Spiegel, and CyLab."
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Lumen: A Framework for Developing and Evaluating ML-Based IoT Network Anomaly Detection",
+      "publisher": "ACM CoNEXT",
+      "releaseDate": "2022-12-01",
+      "url": "https://dl.acm.org/doi/10.1145/3555050.3569134",
+      "summary": "Designed an ML evaluation framework across 100+ devices, resolving domain-shift degradation in network traffic anomaly detection."
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Contention-Aware Performance Prediction for Virtualized Network Functions",
+      "publisher": "ACM SIGCOMM",
+      "releaseDate": "2020-08-01",
+      "url": "https://dl.acm.org/doi/10.1145/3387514.3405890",
+      "summary": "Developed an ML-driven contention-aware predictor for virtualized network functions (VNFs) to guarantee QoS under multi-tenant cloud workloads."
+    },
+    {
+      "name": "All that GLITTERs: Low-Power Spoof-Resilient Light Anchors for Augmented Reality",
+      "publisher": "ACM IPSN",
+      "releaseDate": "2020-04-01",
+      "url": "https://dl.acm.org/doi/10.1109/IPSN48710.2020.00-47",
+      "summary": "Engineered an optical retro-reflective sensing pipeline enabling sub-centimeter AR localization at milliwatt power consumption."
+    },
+    {
+      "name": "DeepEdge: A Network Edge for Deep Learning Workloads",
+      "publisher": "USENIX NSDI",
+      "releaseDate": "2019-02-01",
+      "url": "https://www.usenix.org/conference/nsdi19",
+      "summary": "Designed a distributed edge-cloud scheduling framework optimizing DNN inference pipelines under tight compute constraints."
     }
   ],
-  "projects": [
+  "patents": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "title": "Deep neural network workload scheduling",
+      "number": "US Patent 10,942,767",
+      "date": "2021",
+      "url": "https://patents.google.com/patent/US10942767B2/en",
+      "summary": "Scheduling framework for optimizing deep learning inference workloads across heterogeneous edge and cloud compute under tight resource constraints."
+    },
+    {
+      "title": "Sensor fall-curve identification",
+      "number": "US Patent 11,327,476 (US20200150640A1)",
+      "date": "2022",
+      "url": "https://patents.google.com/patent/US20200150640A1/en",
+      "summary": "Time-of-flight and RF signal fall-curve analytics for agricultural sensing and IoT infrastructure (Microsoft FarmBeats)."
+    }
+  ],
+  "talks": [
+    {
+      "title": "Lumos: Identifying and Localizing Diverse Hidden IoT Devices in an Unfamiliar Environment",
+      "venue": "USENIX Security",
+      "location": "Boston, MA",
+      "date": "2022"
+    },
+    {
+      "title": "Lumen: ML-Based IoT Network Anomaly Detection",
+      "venue": "CyLab & CONIX Annual Review",
+      "location": "CMU, Pittsburgh, PA",
+      "date": "2022"
+    },
+    {
+      "title": "All that GLITTERs: Light Anchors for Augmented Reality",
+      "venue": "ACM IPSN / CPS-IoT Week",
+      "location": "Sydney, Australia (Virtual)",
+      "date": "2020"
+    },
+    {
+      "title": "FarmBeats: AI, Edge & IoT for Agriculture",
+      "venue": "Microsoft Techfest",
+      "location": "Redmond, WA",
+      "date": "2018"
+    },
+    {
+      "title": "Automated Top-View Registration of Broadcast Sports Video",
+      "venue": "IEEE WACV",
+      "location": "Lake Tahoe, NV",
+      "date": "2018"
     }
   ]
 }

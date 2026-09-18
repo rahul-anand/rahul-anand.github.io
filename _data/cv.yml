@@ -2,96 +2,113 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Rahul Anand Sharma
+    - name: Email
+      value: rahulanandsharma@gmail.com
+    - name: Location
+      value: Mountain View, CA
+    - name: Website
+      value: rahul-anand.github.io
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Electrical & Computer Engineering
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2018 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Thesis: Practical Network Layer Machine Learning for IoT Security"
+        - "Advisors: Prof. Vyas Sekar & Prof. Anthony Rowe"
+        - "Honors: CIT Dean's Fellow"
+    - title: B.Tech and M.S. by Research in Computer Science
+      institution: International Institute of Information Technology (IIIT), Hyderabad, India
+      year: 2011 - 2016
       description:
-        - Description 1.
-        - Description 2.
+        - "Honors: Dean's List for Academic and Research Excellence"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: ML Systems Engineer
+      institution: Google Cloud, Mountain View, CA
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Currently driving inference optimization of Gemini models across GPU and TPU platforms.
+        - Previously led the TPU v7 (Ironwood) NPI microbenchmarking suite; bridged internal cluster infrastructure (Borg) with Cloud XLA runtimes, ported benchmarks from HLO to JAX, and executed multi-cube scaling analyses to model accelerator interconnect limits.
+        - Delivered collective communication microbenchmarks and public recipes for the TPU v7 public preview, establishing interconnect scaling baselines for tier-1 frontier AI customers.
+        - Spearheaded intra-node disaggregated serving for Gemini models on bare-metal nodes in Google Distributed Cloud (GDC) / Sovereign Cloud.
+        - Architected automated continuous regression pipelines ensuring Borg-Cloud runtime parity; optimized open-source LLMs (Llama 3, DeepSeek) to land Day-1 3P hardware enablement (Sim-Ship), earning the Google Cloud Tech Impact Award (2026).
+    - title: Applied Scientist
+      institution: AWS, Amazon, Palo Alto, CA
+      year: 2023 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Architected and launched a Generative AI-powered auto-debugging system (Amazon Q) for Apache Spark across AWS Glue, Amazon EMR, and MaxDome, utilizing LLMs for automated root-cause analysis to slash Mean Time to Resolution (MTTR) from days to minutes.
+        - Engineered a high-throughput active testing service for AWS network security, injecting synthetic live traffic to validate Network ACLs at scale, guaranteeing strict compliance and eliminating false-positive blindspots inherent to static simulation models.
+        - Designed and integrated automated diagnostic tooling directly into AWS Glue and EMR management consoles, delivering real-time failure insights and actionable remediations to thousands of enterprise customers.
+    - title: Research Intern
+      institution: Microsoft Research, Redmond, WA
+      year: 2020 - 2021
       description:
+        - Architected low-latency distributed protocols for edge-cloud deep learning inference offloading within the Networking Research Group, minimizing communication overhead and end-to-end latency under bandwidth-constrained networks.
+    - title: Research Fellow
+      institution: Microsoft Research, India, Bangalore, India
+      year: 2016 - 2018
+      description:
+        - Co-designed and built FarmBeats, an end-to-end IoT and cloud analytics platform for data-driven agriculture; awarded Microsoft Outstanding Technical Achievement Award and productized into Microsoft Azure (US Patent US20200150640A).
+        - Pioneered DeepEdge, a novel edge-AI scheduling architecture optimizing deep learning workloads under severe compute and bandwidth constraints, enabling graceful performance degradation (US Patent US10942767B2; published at NSDI).
+        - Researched neural network learnability with theoretical researchers, analyzing empirical bounds on how data complexity, model depth, and minibatch dynamics govern generalization.
+        - Mentored 4+ research interns and junior engineers, driving collaborative systems research initiatives that resulted in multiple conference publications.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Technical Skills
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Languages
+      items:
+        - Python, C++, CUDA, SQL, Bash
+    - title: ML Frameworks & Compilers
+      items:
+        - JAX, PyTorch, XLA, Triton, TensorRT / TensorRT-LLM, TensorFlow
+    - title: LLM Systems & Serving
+      items:
+        - Disaggregated Serving, vLLM, Model Parallelism (Tensor/Pipeline/Expert), Distributed Training (FSDP, Megatron-LM), KV-Cache Optimization, Speculative Decoding, Quantization (FP8/INT4)
+    - title: Systems, Cloud & Hardware
+      items:
+        - Google Cloud TPU v7 (Ironwood), NVIDIA GPU Clusters, Google Distributed Cloud (GDC), AWS (Glue, EMR, EC2), Apache Spark, Kubernetes, Docker, Ray
+    - title: Core Domains
+      items:
+        - LLM Inference Acceleration, Multi-Cube Accelerator Scaling, Compiler-Hardware Co-design, Network & Systems Security
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Google Cloud Tech Impact Award
+    - year: 2018
       items:
-        - Max Planck Medal
+        - Microsoft Outstanding Technical Achievement Award (FarmBeats)
+        - CIT Dean's Fellow, Carnegie Mellon University
+    - year: 2016
+      items:
+        - Dean's List for Academic and Research Excellence, IIIT Hyderabad
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Patents
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "US Patent 10,942,767: Deep neural network workload scheduling"
+    - "US Patent 11,327,476 (US20200150640A1): Sensor fall-curve identification"
+
+- title: Selected Invited Talks
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - "USENIX Security: 'Lumos: Identifying and Localizing Diverse Hidden IoT Devices' (Boston, MA)"
+        - "CyLab & CONIX Annual Review: 'Lumen: ML-Based IoT Network Anomaly Detection' (CMU, Pittsburgh, PA)"
+    - year: 2020
+      items:
+        - "ACM IPSN / CPS-IoT Week: 'All that GLITTERs: Light Anchors for Augmented Reality'"
+    - year: 2018
+      items:
+        - "Microsoft Techfest: 'FarmBeats: AI, Edge & IoT for Agriculture' (Redmond, WA)"
+        - "IEEE WACV: 'Automated Top-View Registration of Broadcast Sports Video' (Lake Tahoe, NV)"
