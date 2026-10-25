@@ -78,6 +78,9 @@ ninja.data = [{
           section: "Projects",},{id: "projects-aws-official-launch-architected-and-introduced-generative-ai-troubleshooting-for-apache-spark-in-aws-glue-amazon-q",
           title: 'AWS Official Launch: Architected and introduced Generative AI troubleshooting for Apache Spark in...',
           description: "",
+          section: "Projects",},{id: "projects-google-cloud-tech-impact-award-2026-recognized-for-tpu-v7-ironwood-microbenchmarking-collective-communication-scaling-recipes-and-day-1-llm-enablement-llama-3-deepseek",
+          title: 'Google Cloud Tech Impact Award (2026): Recognized for TPU v7 (Ironwood) microbenchmarking, collective...',
+          description: "",
           section: "Projects",},{
         id: 'social-email',
         title: 'email',
