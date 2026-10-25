@@ -33,10 +33,10 @@
       institution: Google Cloud, Mountain View, CA
       year: 2025 - Present
       description:
-        - Currently driving inference optimization of Gemini models across GPU and TPU platforms.
-        - Previously led the TPU v7 (Ironwood) NPI microbenchmarking suite; bridged internal cluster infrastructure (Borg) with Cloud XLA runtimes, ported benchmarks from HLO to JAX, and executed multi-cube scaling analyses to model accelerator interconnect limits.
-        - Delivered collective communication microbenchmarks and public recipes for the TPU v7 public preview, establishing interconnect scaling baselines for tier-1 frontier AI customers.
-        - Spearheaded intra-node disaggregated serving for Gemini models on bare-metal nodes in Google Distributed Cloud (GDC) / Sovereign Cloud.
+        - Driving inference optimization and serving performance for Gemini models across GPU and TPU platforms, focusing on runtime bottleneck analysis, KV-cache efficiency, and end-to-end latency/throughput.
+        - Led the TPU v7 (Ironwood) NPI microbenchmarking suite; bridged internal cluster infrastructure (Borg) with Cloud XLA runtimes, ported benchmarks from HLO to JAX, and executed multi-cube scaling analyses to model accelerator interconnect limits.
+        - Delivered collective communication microbenchmarks and public recipes for the TPU v7 public preview, establishing interconnect scaling baselines that advanced multi-billion-dollar hardware evaluations with tier-1 frontier AI customers.
+        - Spearheaded the intra-node (4:4 split) disaggregated serving architecture for Gemini models on bare-metal nodes in Google Distributed Cloud (GDC), overcoming strict memory isolation and control-plane constraints for Sovereign Cloud.
         - Architected automated continuous regression pipelines ensuring Borg-Cloud runtime parity; optimized open-source LLMs (Llama 3, DeepSeek) to land Day-1 3P hardware enablement (Sim-Ship), earning the Google Cloud Tech Impact Award (2026).
     - title: Applied Scientist
       institution: AWS, Amazon, Palo Alto, CA
@@ -76,7 +76,7 @@
         - Google Cloud TPU v7 (Ironwood), NVIDIA GPU Clusters, Google Distributed Cloud (GDC), AWS (Glue, EMR, EC2), Apache Spark, Kubernetes, Docker, Ray
     - title: Core Domains
       items:
-        - LLM Inference Acceleration, Multi-Cube Accelerator Scaling, Compiler-Hardware Co-design, Network & Systems Security
+        - LLM Inference Acceleration, Multi-Cube Accelerator Scaling, Compiler-Hardware Co-design, Secure & Isolated AI Infrastructure (Sovereign Cloud / Network Security)
 
 - title: Honors and Awards
   type: time_table

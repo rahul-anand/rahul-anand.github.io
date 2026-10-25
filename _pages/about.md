@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: ML Systems Engineer @ <a href="https://cloud.google.com/">Google Cloud</a>
+subtitle: >
+  ML Systems Engineer @ <a href="https://cloud.google.com/">Google Cloud</a><br>
+  <span class="text-muted" style="font-size: 0.92rem; font-weight: 400;">LLM Inference & Serving · Accelerator Scaling (TPU/GPU) · Hardware-Software Co-Design</span>
 
 profile:
   align: right
@@ -66,6 +68,49 @@ My work spans **15+ publications** in top systems and security venues (SIGCOMM, 
 ---
 
 ##### Core Focus
-- **LLM Inference Optimization**: Gemini model serving across GPUs and TPUs, KV-cache optimization, model parallelism, and low-latency runtimes.
-- **Accelerator Infrastructure & Scaling**: TPU v7 (Ironwood) cluster scaling, collective communication, and interconnect bottleneck modeling.
-- **Systems & Network Security**: Active network testing at hyperscale, ML-driven telemetry, and wireless sensing.
+- **LLM Inference & Disaggregated Serving**: Gemini model serving across GPUs and TPUs, intra-node prefill/decode disaggregation, KV-cache optimization, model parallelism, and low-latency runtimes.
+- **Accelerator Infrastructure & Scaling**: TPU v7 (Ironwood) multi-cube scaling, collective communication (`AllReduce`/`AllGather`/`AllToAll`), XLA/JAX runtime optimization, and interconnect bottleneck modeling.
+- **Secure AI Infrastructure & Network Security**: Air-gapped / Sovereign Cloud LLM serving with strict memory and control-plane isolation (Google Distributed Cloud), hyperscale active network security validation (AWS), and ML-driven network anomaly detection (CMU CyLab, USENIX Security).
+
+---
+
+##### Selected Production AI Systems
+
+<div class="row g-3 mt-1 mb-2">
+  <div class="col-md-4 mb-3">
+    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
+      <div class="d-flex justify-content-between align-items-start mb-2">
+        <span class="badge badge-primary text-white px-2 py-1" style="font-size: 0.72rem;">Google Cloud · 2025–26</span>
+        <small class="text-muted">LLM Serving</small>
+      </div>
+      <h6 class="card-title font-weight-bold mb-1">Gemini Inference & Disaggregated Serving</h6>
+      <p class="card-text text-muted small mb-0">
+        Driving Gemini inference optimization across GPUs and TPUs. Spearheaded intra-node (4:4 split) disaggregated serving on bare-metal nodes for Google Distributed Cloud (Sovereign Cloud), overcoming strict memory isolation and control-plane constraints.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-3">
+    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
+      <div class="d-flex justify-content-between align-items-start mb-2">
+        <span class="badge badge-success text-white px-2 py-1" style="font-size: 0.72rem;">Google Cloud · 2025–26</span>
+        <small class="text-muted"><i class="fa-solid fa-trophy text-warning"></i> Tech Impact Award</small>
+      </div>
+      <h6 class="card-title font-weight-bold mb-1">TPU v7 (Ironwood) Scaling & Enablement</h6>
+      <p class="card-text text-muted small mb-0">
+        Led the TPU v7 NPI microbenchmarking suite across Borg and Cloud XLA runtimes, executing multi-cube collective scaling analyses and landing Day-1 3P model enablement (Llama 3, DeepSeek) for tier-1 frontier AI customers.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-3">
+    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
+      <div class="d-flex justify-content-between align-items-start mb-2">
+        <span class="badge badge-dark text-white px-2 py-1" style="font-size: 0.72rem;">AWS · 2023–25</span>
+        <small class="text-muted">Amazon Q</small>
+      </div>
+      <h6 class="card-title font-weight-bold mb-1">Hyperscale Spark Root-Cause Analysis</h6>
+      <p class="card-text text-muted small mb-0">
+        Architected and launched GenAI-powered automated debugging for Apache Spark across AWS Glue and EMR, slashing customer Mean Time to Resolution (MTTR) from days to minutes.
+      </p>
+    </div>
+  </div>
+</div>
