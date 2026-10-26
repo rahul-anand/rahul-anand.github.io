@@ -33,18 +33,18 @@
       institution: Google Cloud, Mountain View, CA
       year: 2025 - Present
       description:
-        - Driving inference optimization and serving performance for Gemini models across GPU and TPU platforms, focusing on runtime bottleneck analysis, KV-cache efficiency, and end-to-end latency/throughput.
-        - Led the TPU v7 (Ironwood) NPI microbenchmarking suite; bridged internal cluster infrastructure (Borg) with Cloud XLA runtimes, ported benchmarks from HLO to JAX, and executed multi-cube scaling analyses to model accelerator interconnect limits.
-        - Delivered collective communication microbenchmarks and public recipes for the TPU v7 public preview, establishing interconnect scaling baselines that advanced multi-billion-dollar hardware evaluations with tier-1 frontier AI customers.
-        - Spearheaded the intra-node (4:4 split) disaggregated serving architecture for Gemini models on bare-metal nodes in Google Distributed Cloud (GDC), overcoming strict memory isolation and control-plane constraints for Sovereign Cloud.
-        - Architected automated continuous regression pipelines ensuring Borg-Cloud runtime parity; optimized open-source LLMs (Llama 3, DeepSeek) to land Day-1 3P hardware enablement (Sim-Ship), earning the Google Cloud Tech Impact Award (2026).
+        - "Gemini Serving & Runtime Optimization: Driving cross-stack inference performance for Gemini models across production GPU and TPU fleets, targeting XLA/runtime bottleneck elimination, KV-cache memory efficiency, and end-to-end TTFT/TPOT latency."
+        - "Sovereign Cloud Disaggregated Serving (GDC): Spearheaded the intra-node (4:4 prefill/decode split) disaggregated serving architecture for Gemini on bare-metal nodes in Google Distributed Cloud, overcoming strict air-gapped memory isolation and control-plane constraints."
+        - "TPU v7 (Ironwood) Architecture & Multi-Cube Scaling: Led the TPU v7 NPI microbenchmarking suite bridging internal Borg cluster infrastructure with Cloud XLA/JAX runtimes; executed multi-cube scaling analyses to model ICI/DCN interconnect limits."
+        - "Frontier AI Customer Enablement: Delivered collective communication (AllReduce/AllGather/AllToAll) microbenchmarks and public scaling recipes for the TPU v7 preview, anchoring multi-billion-dollar hardware evaluations with tier-1 frontier AI labs."
+        - "Day-1 3P Model Sim-Ship (Google Cloud Tech Impact Award, 2026): Architected automated continuous regression pipelines enforcing Borg-Cloud runtime parity and led XLA/kernel optimizations for open-weight frontier LLMs (Llama 3, DeepSeek) to land Day-1 hardware enablement."
     - title: Applied Scientist
       institution: AWS, Amazon, Palo Alto, CA
       year: 2023 - 2025
       description:
-        - Architected and launched a Generative AI-powered auto-debugging system (Amazon Q) for Apache Spark across AWS Glue, Amazon EMR, and MaxDome, utilizing LLMs for automated root-cause analysis to slash Mean Time to Resolution (MTTR) from days to minutes.
-        - Engineered a high-throughput active testing service for AWS network security, injecting synthetic live traffic to validate Network ACLs at scale, guaranteeing strict compliance and eliminating false-positive blindspots inherent to static simulation models.
-        - Designed and integrated automated diagnostic tooling directly into AWS Glue and EMR management consoles, delivering real-time failure insights and actionable remediations to thousands of enterprise customers.
+        - "Hyperscale Spark Auto-Debugging (Amazon Q): Architected and launched a Generative AI root-cause analysis system for Apache Spark across AWS Glue, Amazon EMR, and internal compute fleets, slashing customer Mean Time to Resolution (MTTR) from days to minutes."
+        - "Active Cloud Network Security Verification: Engineered a high-throughput active testing service for AWS network security, injecting synthetic live traffic to validate Network ACLs at scale and eliminating false-positive blindspots inherent to static simulation models."
+        - "Production Control-Plane Diagnostics: Designed and shipped real-time failure classification and automated remediation pipelines directly into AWS Glue and EMR management consoles."
     - title: Research Intern
       institution: Microsoft Research, Redmond, WA
       year: 2020 - 2021

@@ -3,8 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  ML Systems Engineer @ <a href="https://cloud.google.com/">Google Cloud</a><br>
-  <span class="text-muted" style="font-size: 0.92rem; font-weight: 400;">LLM Inference & Serving · Accelerator Scaling (TPU/GPU) · Hardware-Software Co-Design</span>
+  ML Systems Engineer · <a href="https://cloud.google.com/">Google Cloud</a><br>
+  <span class="text-muted" style="font-size: 0.92rem; font-weight: 400;">LLM Serving Architecture · Accelerator Scaling (TPU/GPU) · Hardware-Software Co-Design</span>
 
 profile:
   align: right
@@ -12,8 +12,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Mountain View, CA</p>
-    <p><a href="mailto:rahulanandsharma@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a></p>
-    <p><a href="/assets/pdf/rahulanand_resume.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Resume / CV</a></p>
+    <p><a href="mailto:rahulanandsharma@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a> · <a href="/assets/pdf/rahulanand_resume.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Resume</a></p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -30,87 +29,44 @@ latest_posts:
   limit: # leave blank to include all the blog posts
 ---
 
-I am an **ML Systems Engineer & Researcher** at [Google Cloud](https://cloud.google.com/), specializing in hardware-software co-design, distributed accelerator systems, and high-performance inference.
+I am an ML Systems Engineer and Researcher at [Google Cloud](https://cloud.google.com/), working at the intersection of LLM serving architecture, compiler runtimes, and distributed accelerator infrastructure. My work focuses on co-designing serving stacks and multi-node accelerator systems to push the latency–throughput Pareto frontier of frontier models across TPUs and GPUs.
 
-At Google Cloud, I focus on **inference optimization of Gemini models across GPUs and TPUs**, and previously drove accelerator enablement and scaling analyses for **TPU v7 (Ironwood)** (*Google Cloud Tech Impact Award, 2026*).
+At Google Cloud, I lead inference optimization initiatives for **Gemini** across GPU and TPU fleets—including architecting intra-node disaggregated serving for air-gapped Sovereign Cloud deployments on **Google Distributed Cloud (GDC)**—and drove multi-cube interconnect scaling, collective communication microbenchmarking, and Day-1 model enablement for **TPU v7 (Ironwood)** (*Google Cloud Tech Impact Award, 2026*).
 
-Earlier, I was an Applied Scientist at **AWS** architecting GenAI root-cause analysis for Apache Spark at hyperscale ([Amazon Q](https://aws.amazon.com/blogs/big-data/introducing-generative-ai-troubleshooting-for-apache-spark-in-aws-glue-preview/)), completed my Ph.D. in Electrical & Computer Engineering at **Carnegie Mellon University** (CyLab, CIT Dean's Fellow), and conducted systems research at **Microsoft Research** ([FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), [DeepEdge](https://www.usenix.org/conference/nsdi19)).
-
-My work spans **15+ publications** in top systems and security venues (SIGCOMM, NSDI, USENIX Security), **2 US patents**, and systems recognized by *GatesNotes*, *Satya Nadella*, and the front page of *Hacker News*.
-
-<div class="row text-center mt-4 mb-3">
-  <div class="col-6 col-md-3 mb-2">
-    <div class="card h-100 p-2 border" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color);">
-      <div class="h3 font-weight-bold mb-0" style="color: var(--global-theme-color);">15+</div>
-      <small class="text-muted">Top Systems Papers<br>(SIGCOMM, NSDI, Security)</small>
-    </div>
-  </div>
-  <div class="col-6 col-md-3 mb-2">
-    <div class="card h-100 p-2 border" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color);">
-      <div class="h3 font-weight-bold mb-0" style="color: var(--global-theme-color);">2</div>
-      <small class="text-muted">Granted US Patents<br>(Distributed AI & Sensors)</small>
-    </div>
-  </div>
-  <div class="col-6 col-md-3 mb-2">
-    <div class="card h-100 p-2 border" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color);">
-      <div class="h3 font-weight-bold mb-0" style="color: var(--global-theme-color);">450+</div>
-      <small class="text-muted">Citations & Keynote<br>Features by Tech CEOs</small>
-    </div>
-  </div>
-  <div class="col-6 col-md-3 mb-2">
-    <div class="card h-100 p-2 border" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color);">
-      <div class="h3 font-weight-bold mb-0" style="color: var(--global-theme-color);">2026</div>
-      <small class="text-muted">Google Cloud<br>Tech Impact Award</small>
-    </div>
-  </div>
-</div>
+Prior to Google, I was an Applied Scientist at **AWS**, where I architected Generative AI root-cause analysis for Apache Spark at hyperscale ([Amazon Q](https://aws.amazon.com/blogs/big-data/introducing-generative-ai-troubleshooting-for-apache-spark-in-aws-glue-preview/)) and active verification systems for cloud network security. I earned my Ph.D. in Electrical & Computer Engineering from **Carnegie Mellon University** (advised by [Vyas Sekar](https://users.ece.cmu.edu/~vsekar/) and [Anthony Rowe](https://users.ece.cmu.edu/~agr/), CIT Dean's Fellow) and previously built distributed edge-AI and IoT systems at **Microsoft Research** ([FarmBeats](https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/), [DeepEdge](https://www.usenix.org/conference/nsdi19)). My research spans [15+ publications](/publications/) at venues including SIGCOMM, NSDI, and USENIX Security, and [2 US patents](/patents/).
 
 ---
 
-##### Core Focus
-- **LLM Inference & Disaggregated Serving**: Gemini model serving across GPUs and TPUs, intra-node prefill/decode disaggregation, KV-cache optimization, model parallelism, and low-latency runtimes.
-- **Accelerator Infrastructure & Scaling**: TPU v7 (Ironwood) multi-cube scaling, collective communication (`AllReduce`/`AllGather`/`AllToAll`), XLA/JAX runtime optimization, and interconnect bottleneck modeling.
-- **Secure AI Infrastructure & Network Security**: Air-gapped / Sovereign Cloud LLM serving with strict memory and control-plane isolation (Google Distributed Cloud), hyperscale active network security validation (AWS), and ML-driven network anomaly detection (CMU CyLab, USENIX Security).
+#### Production Systems & Technical Scope
 
----
-
-##### Selected Production AI Systems
-
-<div class="row g-3 mt-1 mb-2">
-  <div class="col-md-4 mb-3">
-    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
-      <div class="d-flex justify-content-between align-items-start mb-2">
-        <span class="badge badge-primary text-white px-2 py-1" style="font-size: 0.72rem;">Google Cloud · 2025–26</span>
-        <small class="text-muted">LLM Serving</small>
-      </div>
-      <h6 class="card-title font-weight-bold mb-1">Gemini Inference & Disaggregated Serving</h6>
-      <p class="card-text text-muted small mb-0">
-        Driving Gemini inference optimization across GPUs and TPUs. Spearheaded intra-node (4:4 split) disaggregated serving on bare-metal nodes for Google Distributed Cloud (Sovereign Cloud), overcoming strict memory isolation and control-plane constraints.
-      </p>
+<div class="mt-3 mb-4">
+  <div class="mb-3 pb-3 border-bottom" style="border-color: var(--global-divider-color) !important;">
+    <div class="d-flex justify-content-between align-items-baseline flex-wrap">
+      <h6 class="font-weight-bold mb-1" style="font-size: 1rem;">Gemini Serving Architecture & Sovereign Cloud Infrastructure</h6>
+      <span class="text-muted" style="font-size: 0.82rem; font-family: monospace;">Google Cloud · 2025–Present</span>
     </div>
+    <p class="text-muted small mb-0">
+      End-to-end latency, KV-cache efficiency, and runtime bottleneck optimization for Gemini models on GPU and TPU clusters. Spearheaded the intra-node (4:4 split) prefill/decode disaggregated serving architecture on bare-metal nodes for Google Distributed Cloud (GDC), resolving strict memory isolation and control-plane constraints in air-gapped environments.
+    </p>
   </div>
-  <div class="col-md-4 mb-3">
-    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
-      <div class="d-flex justify-content-between align-items-start mb-2">
-        <span class="badge badge-success text-white px-2 py-1" style="font-size: 0.72rem;">Google Cloud · 2025–26</span>
-        <small class="text-muted"><i class="fa-solid fa-trophy text-warning"></i> Tech Impact Award</small>
-      </div>
-      <h6 class="card-title font-weight-bold mb-1">TPU v7 (Ironwood) Scaling & Enablement</h6>
-      <p class="card-text text-muted small mb-0">
-        Led the TPU v7 NPI microbenchmarking suite across Borg and Cloud XLA runtimes, executing multi-cube collective scaling analyses and landing Day-1 3P model enablement (Llama 3, DeepSeek) for tier-1 frontier AI customers.
-      </p>
+
+  <div class="mb-3 pb-3 border-bottom" style="border-color: var(--global-divider-color) !important;">
+    <div class="d-flex justify-content-between align-items-baseline flex-wrap">
+      <h6 class="font-weight-bold mb-1" style="font-size: 1rem;">TPU v7 (Ironwood) Multi-Cube Scaling & Day-1 Enablement</h6>
+      <span class="text-muted" style="font-size: 0.82rem; font-family: monospace;">Google Cloud · Tech Impact Award 2026</span>
     </div>
+    <p class="text-muted small mb-0">
+      Architected the NPI microbenchmarking and continuous regression suite bridging internal Borg clusters and Cloud XLA/JAX runtimes. Modeled ICI/DCN collective communication limits across multi-cube topologies and delivered Day-1 third-party model optimization (Llama 3, DeepSeek) for tier-1 frontier AI evaluations.
+    </p>
   </div>
-  <div class="col-md-4 mb-3">
-    <div class="card h-100 p-3 border shadow-sm" style="border-color: var(--global-divider-color) !important; background-color: var(--global-card-bg-color); border-radius: 8px;">
-      <div class="d-flex justify-content-between align-items-start mb-2">
-        <span class="badge badge-dark text-white px-2 py-1" style="font-size: 0.72rem;">AWS · 2023–25</span>
-        <small class="text-muted">Amazon Q</small>
-      </div>
-      <h6 class="card-title font-weight-bold mb-1">Hyperscale Spark Root-Cause Analysis</h6>
-      <p class="card-text text-muted small mb-0">
-        Architected and launched GenAI-powered automated debugging for Apache Spark across AWS Glue and EMR, slashing customer Mean Time to Resolution (MTTR) from days to minutes.
-      </p>
+
+  <div class="mb-1">
+    <div class="d-flex justify-content-between align-items-baseline flex-wrap">
+      <h6 class="font-weight-bold mb-1" style="font-size: 1rem;">Hyperscale Distributed Diagnostics & Network Verification</h6>
+      <span class="text-muted" style="font-size: 0.82rem; font-family: monospace;">AWS · 2023–2025</span>
     </div>
+    <p class="text-muted small mb-0">
+      Architected and launched LLM-driven automated root-cause analysis (<a href="https://aws.amazon.com/blogs/big-data/introducing-generative-ai-troubleshooting-for-apache-spark-in-aws-glue-preview/" target="_blank">Amazon Q</a>) across AWS Glue and EMR, reducing Spark job failure resolution from days to minutes, alongside high-throughput synthetic traffic validation for cloud network ACL compliance.
+    </p>
   </div>
 </div>

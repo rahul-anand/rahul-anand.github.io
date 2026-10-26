@@ -1,28 +1,14 @@
-<table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,profiles,location' | split: ',' %}
-  {% for content in data[1] %}
-    {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
-    %}
-      {% continue %}
-    {% endif %}
-
-    <tr>
-      <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
-      </td>
-      <td class="p-1 pl-2 font-weight-light text">
-        {% if content[0] == 'url' %}
-          <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
-        {% elsif content[0] == 'email' %}
-          <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
-        {% elsif content[0] == 'phone' %}
-          <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
-        {% else %}
-          {{ content[1] }}
-        {% endif %}
-      </td>
-    </tr>
-  {% endfor %}
-</table>
+<div class="px-1">
+  <p class="mb-2" style="font-size: 0.96rem; line-height: 1.55;">
+    {{ data[1].summary }}
+  </p>
+  <div class="text-muted small d-flex flex-wrap align-items-center" style="font-family: monospace; font-size: 0.84rem; gap: 0.5rem;">
+    <span><i class="fa-solid fa-location-dot"></i> {{ data[1].location.city }}, {{ data[1].location.region }}</span>
+    <span>&middot;</span>
+    <a href="mailto:{{ data[1].email }}">{{ data[1].email }}</a>
+    {% for profile in data[1].profiles %}
+      <span>&middot;</span>
+      <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network }}</a>
+    {% endfor %}
+  </div>
+</div>

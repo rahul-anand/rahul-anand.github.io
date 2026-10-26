@@ -1,33 +1,17 @@
-<div class="list-groups">
-  {% for content in data[1] %}
-    <div class="list-group col-md-6" title="{{ content.level }}">
-      <table class="table-cv list-group-table">
-        <tbody>
-          <tr>
-            {% if content.icon %}
-              <td class="list-group-category-icon">
-                <i class="{{ content.icon }}"></i>
-              </td>
-            {% else %}
-              <td class="list-group-category-icon"></td>
-            {% endif %}
-            <!-- Calculate colspan number for category title -->
-            {% assign i = 1 %}
-            {% for item in content.items %}
-              {% assign i = i | plus: 1 %}
-            {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
-          </tr>
-          {% for item in content.keywords %}
-            <tr>
-              <td></td>
-              <td class="list-group-name">
-                <b>{{ item }}</b>
-              </td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-  {% endfor %}
+<div class="px-1">
+  <table class="table table-sm table-borderless mb-0">
+    <tbody>
+      {% for content in data[1] %}
+        <tr>
+          <td class="font-weight-bold pr-3 py-1" style="width: 28%; vertical-align: baseline; font-size: 0.92rem;">
+            {% if content.icon %}<i class="{{ content.icon }} mr-1 text-muted" style="width: 1.1rem;"></i>{% endif %}
+            {{ content.name }}
+          </td>
+          <td class="py-1 text-muted" style="vertical-align: baseline; font-size: 0.92rem;">
+            {{ content.keywords | join: ' &middot; ' }}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>

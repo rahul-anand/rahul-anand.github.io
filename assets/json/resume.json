@@ -4,15 +4,15 @@
     "label": "ML Systems Engineer & Researcher",
     "image": "",
     "email": "rahulanandsharma@gmail.com",
-    "phone": "412-708-9085",
+    "phone": "",
     "url": "https://rahul-anand.github.io",
-    "summary": "ML Systems Engineer and Researcher specializing in hardware-software co-design, LLM inference acceleration, and distributed accelerator infrastructure (TPUs/GPUs). Ph.D. from CMU with 15+ publications at top systems venues (SIGCOMM, NSDI, USENIX Security) and 2 US patents. Track record of driving high-impact technical initiatives across Google Cloud, AWS, and Microsoft Research.",
+    "summary": "ML Systems Engineer and Researcher specializing in LLM serving architecture, hardware-software co-design, and distributed accelerator infrastructure (TPUs/GPUs). Ph.D. in ECE from Carnegie Mellon University with 15+ publications at top systems and security venues (SIGCOMM, NSDI, USENIX Security) and 2 US patents. Track record of architecting and scaling high-impact AI systems across Google Cloud, AWS, and Microsoft Research.",
     "location": {
       "address": "",
       "postalCode": "94043",
       "city": "Mountain View",
       "countryCode": "US",
-      "region": "California"
+      "region": "CA"
     },
     "profiles": [
       {
@@ -26,9 +26,9 @@
         "url": "https://www.linkedin.com/in/rahulanandsharma"
       },
       {
-        "network": "Twitter",
-        "username": "rahul_ans",
-        "url": "https://twitter.com/rahul_ans"
+        "network": "Google Scholar",
+        "username": "Rahul Anand Sharma",
+        "url": "https://scholar.google.com/citations?user=-4b1o7oAAAAJ"
       }
     ]
   },
@@ -36,54 +36,44 @@
     {
       "name": "Google Cloud",
       "position": "ML Systems Engineer",
+      "location": "Mountain View, CA",
       "url": "https://cloud.google.com/",
       "startDate": "2025-08-01",
       "endDate": "",
-      "summary": "Inference optimization and high-performance serving of Gemini models across GPUs and TPUs.",
+      "summary": "Technical lead for Gemini inference optimization, Sovereign Cloud disaggregated serving, and TPU v7 (Ironwood) multi-cube scaling.",
       "highlights": [
-        "Driving inference optimization and serving performance for Gemini models across GPU and TPU platforms, focusing on runtime bottleneck analysis, KV-cache efficiency, and end-to-end latency/throughput.",
-        "Led the TPU v7 (Ironwood) NPI microbenchmarking suite; bridged internal cluster infrastructure (Borg) with Cloud XLA runtimes, ported benchmarks from HLO to JAX, and executed multi-cube scaling analyses to model accelerator interconnect limits.",
-        "Delivered collective communication microbenchmarks and public recipes for the TPU v7 public preview, establishing interconnect scaling baselines that advanced multi-billion-dollar hardware evaluations with tier-1 frontier AI customers.",
-        "Spearheaded the intra-node (4:4 split) disaggregated serving architecture for Gemini models on bare-metal nodes in Google Distributed Cloud (GDC), overcoming strict memory isolation and control-plane constraints for Sovereign Cloud.",
-        "Architected automated continuous regression pipelines ensuring Borg-Cloud runtime parity; optimized open-source LLMs (Llama 3, DeepSeek) to land Day-1 3P hardware enablement (Sim-Ship), earning the Google Cloud Tech Impact Award (2026)."
+        "Gemini Serving & Runtime Optimization: Driving cross-stack inference performance for Gemini models across GPU and TPU fleets, targeting XLA/runtime bottleneck elimination, KV-cache memory efficiency, and end-to-end TTFT/TPOT latency.",
+        "Sovereign Cloud Disaggregated Serving (GDC): Spearheaded the intra-node (4:4 prefill/decode split) disaggregated serving architecture for Gemini on bare-metal nodes in Google Distributed Cloud, overcoming strict air-gapped memory isolation and control-plane constraints.",
+        "TPU v7 (Ironwood) Architecture & Interconnect Scaling: Architected the NPI microbenchmarking suite bridging internal Borg clusters with Cloud XLA/JAX runtimes; executed multi-cube scaling analyses and collective communication (AllReduce/AllGather/AllToAll) modeling that anchored multi-billion-dollar hardware evaluations with tier-1 frontier AI customers.",
+        "Day-1 Frontier Model Enablement (Google Cloud Tech Impact Award, 2026): Built automated continuous regression pipelines enforcing Borg-Cloud runtime parity and led XLA/kernel optimizations for open-weight LLMs (Llama 3, DeepSeek) to land Day-1 hardware Sim-Ship."
       ]
     },
     {
       "name": "AWS, Amazon",
       "position": "Applied Scientist",
+      "location": "Palo Alto, CA",
       "url": "https://aws.amazon.com/",
       "startDate": "2023-01-01",
       "endDate": "2025-07-31",
-      "summary": "Architected Generative AI-powered observability and diagnostics for big data systems and network security at hyperscale.",
+      "summary": "Architected LLM-powered distributed diagnostics for hyperscale data processing and active verification for cloud network security.",
       "highlights": [
-        "Architected and launched a Generative AI-powered auto-debugging system (Amazon Q) for Apache Spark across AWS Glue, Amazon EMR, and MaxDome, utilizing LLMs for automated root-cause analysis to slash Mean Time to Resolution (MTTR) from days to minutes.",
-        "Engineered a high-throughput active testing service for AWS network security, injecting synthetic live traffic to validate Network ACLs at scale, guaranteeing strict compliance and eliminating false-positive blindspots inherent to static simulation models.",
-        "Designed and integrated automated diagnostic tooling directly into AWS Glue and EMR management consoles, delivering real-time failure insights and actionable remediations to thousands of enterprise customers."
+        "Hyperscale Spark Auto-Debugging (Amazon Q): Architected and launched a Generative AI root-cause analysis system for Apache Spark across AWS Glue, Amazon EMR, and internal compute fleets, slashing customer Mean Time to Resolution (MTTR) from days to minutes.",
+        "Active Cloud Network Verification: Engineered a high-throughput active testing service for AWS network security, injecting synthetic live traffic to validate Network ACLs at scale and eliminating false-positive blindspots inherent to static reachability models.",
+        "Production Control-Plane Integration: Designed and shipped real-time diagnostic and remediation pipelines directly into AWS Glue and EMR consoles, serving thousands of enterprise analytics workloads."
       ]
     },
     {
-      "name": "Microsoft Research, Redmond",
-      "position": "Research Intern",
-      "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-redmond/",
-      "startDate": "2020-05-01",
-      "endDate": "2021-07-31",
-      "summary": "Networking Research Group.",
-      "highlights": [
-        "Architected low-latency distributed protocols for edge-cloud deep learning inference offloading within the Networking Research Group, minimizing communication overhead and end-to-end latency under bandwidth-constrained networks."
-      ]
-    },
-    {
-      "name": "Microsoft Research, India",
-      "position": "Research Fellow",
-      "url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-india/",
+      "name": "Microsoft Research",
+      "position": "Research Intern (Redmond) & Research Fellow (India)",
+      "location": "Redmond, WA & Bangalore, India",
+      "url": "https://www.microsoft.com/en-us/research/",
       "startDate": "2016-07-01",
-      "endDate": "2018-07-31",
-      "summary": "Systems and networking research for edge computing, IoT, and AI.",
+      "endDate": "2021-07-31",
+      "summary": "Distributed systems, edge-cloud DNN inference scheduling, and IoT analytics (Fellow 2016–2018; Ph.D. Intern 2020–2021).",
       "highlights": [
-        "Co-designed and built FarmBeats, an end-to-end IoT and cloud analytics platform for data-driven agriculture; awarded Microsoft Outstanding Technical Achievement Award and productized into Microsoft Azure (US Patent US20200150640A).",
-        "Pioneered DeepEdge, a novel edge-AI scheduling architecture optimizing deep learning workloads under severe compute and bandwidth constraints, enabling graceful performance degradation (US Patent US10942767B2; published at NSDI).",
-        "Researched neural network learnability with theoretical researchers, analyzing empirical bounds on how data complexity, model depth, and minibatch dynamics govern generalization.",
-        "Mentored 4+ research interns and junior engineers, driving collaborative systems research initiatives that resulted in multiple conference publications."
+        "Edge-Cloud DNN Scheduling (DeepEdge & Networking Group): Pioneered distributed scheduling and low-latency offloading protocols for deep learning inference under severe compute and WAN bandwidth constraints (published at USENIX NSDI '19; granted US Patent 10,942,767).",
+        "FarmBeats IoT Platform (Microsoft Outstanding Technical Achievement Award): Co-designed and built an end-to-end RF/sensor and cloud analytics platform for data-driven agriculture; productized into Microsoft Azure, featured on GatesNotes, and granted US Patent 11,327,476.",
+        "Research Mentorship: Mentored 4+ research interns and junior engineers across systems and theoretical ML learnability initiatives, resulting in multiple top-tier publications."
       ]
     }
   ],
@@ -111,9 +101,53 @@
       "startDate": "2011-07-01",
       "endDate": "2016-07-31",
       "score": "Dean's List for Academic and Research Excellence",
-      "courses": [
-        "Computer Vision",
-        "Broadcast Video Analytics"
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "LLM Serving & Distributed ML",
+      "level": "Expert",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Disaggregated Serving (Prefill/Decode)",
+        "KV-Cache Optimization",
+        "Model Parallelism (TP/PP/EP)",
+        "Collective Communication (ICI/DCN)",
+        "vLLM",
+        "FSDP / Megatron-LM",
+        "Speculative Decoding",
+        "Quantization (FP8/INT4)"
+      ]
+    },
+    {
+      "name": "Compilers, Frameworks & Kernels",
+      "level": "Expert",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "JAX",
+        "XLA / HLO",
+        "PyTorch",
+        "Triton",
+        "TensorRT-LLM",
+        "CUDA",
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "name": "Accelerator & Cloud Infrastructure",
+      "level": "Expert",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "Google Cloud TPU (v4/v5p/v7 Ironwood)",
+        "NVIDIA GPU Clusters",
+        "Google Borg",
+        "Google Distributed Cloud (GDC / Air-Gapped)",
+        "AWS (Glue, EMR, VPC/Network Security)",
+        "Kubernetes",
+        "Ray",
+        "Apache Spark"
       ]
     }
   ],
@@ -123,84 +157,21 @@
       "date": "2026",
       "awarder": "Google Cloud",
       "url": "https://cloud.google.com/",
-      "summary": "Awarded for landing Day-1 3P hardware enablement (Sim-Ship) and optimizing open-source LLMs (Llama 3, DeepSeek) with runtime parity."
+      "summary": "Recognized for TPU v7 (Ironwood) collective scaling baselines, Borg-Cloud runtime parity, and Day-1 frontier LLM enablement (Sim-Ship)."
     },
     {
       "title": "Microsoft Outstanding Technical Achievement Award",
       "date": "2018",
       "awarder": "Microsoft",
       "url": "https://www.microsoft.com/en-us/research/project/farmbeats-iot-agriculture/",
-      "summary": "Awarded for co-designing and building FarmBeats, productized into Microsoft Azure."
+      "summary": "Recognized for co-designing and building FarmBeats, productized into Microsoft Azure and featured by Bill Gates."
     },
     {
-      "title": "CIT Dean's Fellow",
+      "title": "CIT Dean's Fellowship",
       "date": "2018",
       "awarder": "Carnegie Mellon University",
       "url": "https://www.cmu.edu/",
-      "summary": "Doctoral fellowship awarded by the College of Engineering at Carnegie Mellon University."
-    },
-    {
-      "title": "Dean's List for Academic and Research Excellence",
-      "date": "2016",
-      "awarder": "IIIT Hyderabad",
-      "url": "https://www.iiit.ac.in/",
-      "summary": "Awarded for academic and research excellence during B.Tech & M.S. by Research."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages",
-      "level": "Expert",
-      "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "C++",
-        "CUDA",
-        "SQL",
-        "Bash"
-      ]
-    },
-    {
-      "name": "ML Frameworks & Compilers",
-      "level": "Expert",
-      "icon": "fa-solid fa-microchip",
-      "keywords": [
-        "JAX",
-        "PyTorch",
-        "XLA",
-        "Triton",
-        "TensorRT / TensorRT-LLM",
-        "TensorFlow"
-      ]
-    },
-    {
-      "name": "LLM Systems & Serving",
-      "level": "Expert",
-      "icon": "fa-solid fa-server",
-      "keywords": [
-        "Disaggregated Serving",
-        "vLLM",
-        "Model Parallelism (TP/PP/EP)",
-        "Distributed Training (FSDP, Megatron-LM)",
-        "KV-Cache Optimization",
-        "Speculative Decoding",
-        "Quantization (FP8/INT4)"
-      ]
-    },
-    {
-      "name": "Systems, Cloud & Hardware",
-      "level": "Expert",
-      "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "Google Cloud TPU v7 (Ironwood)",
-        "NVIDIA GPU Clusters",
-        "Google Distributed Cloud (GDC)",
-        "AWS (Glue, EMR, EC2)",
-        "Apache Spark",
-        "Kubernetes",
-        "Docker",
-        "Ray"
-      ]
+      "summary": "Presidential/Dean's doctoral fellowship awarded by the College of Engineering at Carnegie Mellon University."
     }
   ],
   "publications": [
@@ -209,35 +180,35 @@
       "publisher": "USENIX Security",
       "releaseDate": "2022-08-01",
       "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/sharma",
-      "summary": "Built a mobile system leveraging 802.11 PHY/MAC features and AR to localize hidden IoT devices with 95% accuracy; covered by Hacker News front page, Der Spiegel, and CyLab."
+      "summary": "Mobile wireless sensing system leveraging 802.11 PHY/MAC features and AR to localize hidden IoT devices to 1.5m accuracy with 95% precision."
     },
     {
       "name": "Lumen: A Framework for Developing and Evaluating ML-Based IoT Network Anomaly Detection",
       "publisher": "ACM CoNEXT",
       "releaseDate": "2022-12-01",
       "url": "https://dl.acm.org/doi/10.1145/3555050.3569134",
-      "summary": "Designed an ML evaluation framework across 100+ devices, resolving domain-shift degradation in network traffic anomaly detection."
+      "summary": "Modular ML evaluation framework across 100+ devices, isolating and resolving temporal and topological domain-shift degradation in network traffic anomaly detection."
     },
     {
       "name": "Contention-Aware Performance Prediction for Virtualized Network Functions",
       "publisher": "ACM SIGCOMM",
       "releaseDate": "2020-08-01",
       "url": "https://dl.acm.org/doi/10.1145/3387514.3405890",
-      "summary": "Developed an ML-driven contention-aware predictor for virtualized network functions (VNFs) to guarantee QoS under multi-tenant cloud workloads."
+      "summary": "Low-level subsystem contention modeling (cache, memory bus, packet I/O) to predict throughput degradation and guarantee QoS SLOs in multi-tenant cloud NFV."
     },
     {
       "name": "All that GLITTERs: Low-Power Spoof-Resilient Light Anchors for Augmented Reality",
       "publisher": "ACM IPSN",
       "releaseDate": "2020-04-01",
       "url": "https://dl.acm.org/doi/10.1109/IPSN48710.2020.00-47",
-      "summary": "Engineered an optical retro-reflective sensing pipeline enabling sub-centimeter AR localization at milliwatt power consumption."
+      "summary": "Optical retro-reflective sensing pipeline enabling sub-centimeter AR localization at milliwatt power consumption."
     },
     {
       "name": "DeepEdge: A Network Edge for Deep Learning Workloads",
       "publisher": "USENIX NSDI",
       "releaseDate": "2019-02-01",
       "url": "https://www.usenix.org/conference/nsdi19",
-      "summary": "Designed a distributed edge-cloud scheduling framework optimizing DNN inference pipelines under tight compute constraints."
+      "summary": "Distributed edge-cloud scheduling framework optimizing multi-tenant DNN inference pipelines under tight compute and uplink bandwidth constraints."
     }
   ],
   "patents": [
@@ -246,7 +217,7 @@
       "number": "US Patent 10,942,767",
       "date": "2021",
       "url": "https://patents.google.com/patent/US10942767B2/en",
-      "summary": "Scheduling framework for optimizing deep learning inference workloads across heterogeneous edge and cloud compute under tight resource constraints."
+      "summary": "Scheduling architecture for optimizing deep learning inference workloads across heterogeneous edge and cloud compute under resource constraints."
     },
     {
       "title": "Sensor fall-curve identification",
@@ -272,19 +243,13 @@
     {
       "title": "All that GLITTERs: Light Anchors for Augmented Reality",
       "venue": "ACM IPSN / CPS-IoT Week",
-      "location": "Sydney, Australia (Virtual)",
+      "location": "Sydney, Australia",
       "date": "2020"
     },
     {
       "title": "FarmBeats: AI, Edge & IoT for Agriculture",
       "venue": "Microsoft Techfest",
       "location": "Redmond, WA",
-      "date": "2018"
-    },
-    {
-      "title": "Automated Top-View Registration of Broadcast Sports Video",
-      "venue": "IEEE WACV",
-      "location": "Lake Tahoe, NV",
       "date": "2018"
     }
   ]
